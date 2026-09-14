@@ -12,6 +12,7 @@ This project builds up a small multi-container web infrastructure with Docker: a
 | **2. Front-end** | Nginx-served static front-end (cloned `softy-pinko-front-end` site) on port 9000; back-end moved into its own `back-end/` folder. | `task2` |
 | **3. Connecting the Front-end and Back-end** | Front-end JS fetches `/api/hello` and renders it; back-end adds `flask-cors` so the cross-origin request is allowed. | `task3` |
 | **4. Making it Simpler with Docker Compose** | A `docker-compose.yml` builds and runs both services together with one command. | `task4` |
+| **5. Proxy Server** | An Nginx reverse proxy on port 80 routes `/` to the front-end and `/api` to the back-end; only the proxy's port is published. | `task5` |
 
 ## Author
 * **Luis Gonzalez** - Holberton School
