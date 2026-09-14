@@ -8,6 +8,7 @@ This project builds up a small multi-container web infrastructure with Docker: a
 | Task | Description | Directory |
 | :--- | :--- | :--- |
 | **0. Create Your First Docker Image** | A `Dockerfile` based on `ubuntu:latest` that updates/upgrades APT and echoes `Hello, World!`. | `task0` |
+| **1. Back-end** | A Flask API (`api.py`) with a `/api/hello` route, containerized on port 5252. | `task1` |
 
 ## Author
 * **Luis Gonzalez** - Holberton School
