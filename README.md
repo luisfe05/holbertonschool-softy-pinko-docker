@@ -13,6 +13,7 @@ This project builds up a small multi-container web infrastructure with Docker: a
 | **3. Connecting the Front-end and Back-end** | Front-end JS fetches `/api/hello` and renders it; back-end adds `flask-cors` so the cross-origin request is allowed. | `task3` |
 | **4. Making it Simpler with Docker Compose** | A `docker-compose.yml` builds and runs both services together with one command. | `task4` |
 | **5. Proxy Server** | An Nginx reverse proxy on port 80 routes `/` to the front-end and `/api` to the back-end; only the proxy's port is published. | `task5` |
+| **6. Scale Horizontally** | Two (or more) back-end containers run behind the proxy, which round-robin load-balances between them. | `task6` |
 
 ## Author
 * **Luis Gonzalez** - Holberton School
